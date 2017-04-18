@@ -1,0 +1,37 @@
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+//tr {background-color: #87CEFA}
+
+#header{
+    background-color: blue;
+    color: white;
+}
+
+#plane{
+    background-color: white;
+    color: white;
+}
+
+.container {
+    margin-top: 40px;
+}
+
+.buttons {
+	 top: 310px;
+	position: absolute;
+    background-color: blue; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+      right: 12px;
+    font-size: 16px;
+}
+
