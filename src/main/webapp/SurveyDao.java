@@ -23,7 +23,7 @@ private static final CloudantClient client = getCloudantClient();
 		return client;
 	}
 	
-	public static Database getCicMarketPlaceDB(){
+	public static Database getibmbluesurveyDB(){
 		//get database. if it does not exist create it
 		return client.database("ibmbluesurvey_db", true);
 	}
@@ -45,12 +45,17 @@ private static final CloudantClient client = getCloudantClient();
 		}
 	
 		
-		client.createDB("example_db");
-		Database db = client.database("example_db", false);
-		db.save(new ExampleDocument(true));
-		System.out.println("You have inserted the document");
+//		client.createDB("example_db");
+//		Database db = client.database("example_db", false);
+//		db.save(new ExampleDocument(true));
+//		System.out.println("You have inserted the document");
 	
-	
+	 
+		
+		Database dbb= getibmbluesurveyDB();
+		dbb.save(new ExampleDocument(true));
+		
+		
 	}
 
 
