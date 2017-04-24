@@ -52,8 +52,6 @@ private static final CloudantClient client = getCloudantClient();
 	
 	 
 		
-		Database dbb= getibmbluesurveyDB();
-		dbb.save(new ExampleDocument(true));
 		
 		
 	}
