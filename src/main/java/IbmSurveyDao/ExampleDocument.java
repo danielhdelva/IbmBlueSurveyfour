@@ -20,7 +20,9 @@ public class ExampleDocument extends HttpServlet {
             HttpServletResponse response) throws ServletException, IOException {
          
         // read form fields
-    	 String _id = request.getParameter("sa");
+    
+    	
+    	String _id = request.getParameter("sa");
         String password = request.getParameter("password");
          
         System.out.println("username: " + _id);

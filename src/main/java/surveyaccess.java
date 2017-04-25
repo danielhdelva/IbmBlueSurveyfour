@@ -16,6 +16,7 @@ import java.io.PrintWriter;
  */
 @WebServlet("/surveyaccess")
 public class surveyaccess extends HttpServlet {
+	public String  eename="";
 	private static final long serialVersionUID = 1L;
        
     /**
@@ -43,7 +44,7 @@ public class surveyaccess extends HttpServlet {
         // read form fields
         String ename = request.getParameter("ename");
         //String password = request.getParameter("password");
-         
+         eename=ename;
         System.out.println("username: " + ename);
         //System.out.println("password: " + password);
  
@@ -57,7 +58,8 @@ public class surveyaccess extends HttpServlet {
         htmlRespone += "<h2>Your username is: " + ename + "<br/>";      
         //htmlRespone += "Your password is: " + password + "</h2>";    
         htmlRespone += "</html>";
-         
+        SurveyDao danielhdelva= new SurveyDao();
+        danielhdelva.create();
         // return response
         writer.println(htmlRespone);
          

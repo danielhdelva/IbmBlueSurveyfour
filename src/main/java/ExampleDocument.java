@@ -1,5 +1,7 @@
 public class ExampleDocument {
-  private String _id = "example_id";
+  
+	surveyaccess  s = new surveyaccess();
+	private String _id = s.eename;
   private String _rev = null;
   private boolean isExample;
 
