@@ -36,8 +36,22 @@
 
 <table >
 <tr>
+<form name="loginForm" method="post" action="surveyaccess">
 <td ><b>Employee Name:</b> &nbsp; </td>
-<td><input type="text"  ng-model='EN'  ></td>
+<td><input type="text" name="ename" ng-model='EN'  ></td>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <td><b>Employee ID:</b>  &nbsp; </td>
 <td><input type="text"   ng-model="EID"></td>
@@ -2258,19 +2272,9 @@ provide</td>
 
 </table>
 </div>
-<CENTER>
 
-
-
-<!------- will remove once i change output from email to database------------------------------------------------------->
-<form name="loginForm" method="post" action="loginServlet">
-    
-<button  class ="buttons"   value="Login">Submit</button>
-sa:<INPUT  NAME='Employee Name'  id='Employee Name' TYPE="hidden"  value= ' danielhdelva' ><BR>
-Password:<INPUT  NAME='Employee ID'   id='Employee ID' TYPE="hidden" value= '  {{EID}}' ><BR>
-adad
+<input type="submit" value="Login" />
 </form>
-</CENTER>
 
 
 
