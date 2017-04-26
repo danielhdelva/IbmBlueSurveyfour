@@ -54,9 +54,14 @@ public class surveyaccess extends HttpServlet {
         String  Test_data_creation = request.getParameter("tdata");
         String  Execute_test_scripts = request.getParameter("ExecuteTest");
         String Write_defects = request.getParameter("WriteDefects");
-        
-        
-        
+        String Effectively_communicate_to_stakeholders_client = request.getParameter("Effectivelycommunicate");
+        String Use_of_HP_Application_Lifecycle_Management = request.getParameter("UseofHPApplication");
+        String Use_of_Rational_ClearCase = request.getParameter("UseofRational");
+        String  Use_of_Rational_Collaborative_Life_cycle_Management = request.getParameter("Use_of_Rational_Collaborative");
+        String Use_of_Rational_Doors = request.getParameter("UseofRationalManual");
+        String Use_of_Rational_Manual_Tester=request.getParameter("UseofRationalManual");
+        String Use_of_Rational_Quality_Manager=request.getParameter("QualityManager");
+        String Use_of_Rational_Requirements_Composer=request.getParameter("UseofRationalRequirementsComposer");   
         
         
         
@@ -84,7 +89,7 @@ public class surveyaccess extends HttpServlet {
         
        
         
-        danielhdelva.create(ename, eID,Band,ServiceLine,BluepagesManagerName,Service_Area,Primary_Job_Role,Testscript,Test_data_creation,Execute_test_scripts,Write_defects);
+        danielhdelva.create(ename, eID,Band,ServiceLine,BluepagesManagerName,Service_Area,Primary_Job_Role,Testscript,Test_data_creation,Execute_test_scripts,Write_defects,Effectively_communicate_to_stakeholders_client,Use_of_HP_Application_Lifecycle_Management,Use_of_Rational_ClearCase,Use_of_Rational_Collaborative_Life_cycle_Management,Use_of_Rational_Doors,Use_of_Rational_Manual_Tester,Use_of_Rational_Quality_Manager,Use_of_Rational_Requirements_Composer);
         // return response
         writer.println(htmlRespone);
       
