@@ -44,6 +44,11 @@ public class surveyaccess extends HttpServlet {
          
         // read form fields
         String ename = request.getParameter("ename");
+        String Band = request.getParameter("Band");
+        String eID = request.getParameter("eID");
+        String ServiceLine = request.getParameter("SL");
+        String BluepagesManagerName = request.getParameter("BMN");
+        String 	Service_Area = request.getParameter("SA");
         //String password = request.getParameter("password");
          eename=ename;
         System.out.println("username: " + ename);
@@ -56,7 +61,7 @@ public class surveyaccess extends HttpServlet {
          
         // build HTML code
         String htmlRespone = "<html>";
-        htmlRespone += "<h2>Your username is: " + ename + "<br/>";      
+        htmlRespone +=  ename + " Thank You for summitting this survey" + "<br/>";      
         //htmlRespone += "Your password is: " + password + "</h2>";    
         htmlRespone += "</html>";
        
@@ -68,10 +73,10 @@ public class surveyaccess extends HttpServlet {
         
        
         
-        danielhdelva.create(ename);
+        danielhdelva.create(ename, eID,Band,ServiceLine,BluepagesManagerName,Service_Area);
         // return response
         writer.println(htmlRespone);
-         
+      
     }
  
 
