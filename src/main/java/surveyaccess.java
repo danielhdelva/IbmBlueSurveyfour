@@ -49,6 +49,14 @@ public class surveyaccess extends HttpServlet {
         String ServiceLine = request.getParameter("SL");
         String BluepagesManagerName = request.getParameter("BMN");
         String 	Service_Area = request.getParameter("SA");
+        String Primary_Job_Role = request.getParameter("pr");
+        String Testscript = request.getParameter("tscript");
+        
+        
+        
+        
+        
+        
         //String password = request.getParameter("password");
          eename=ename;
         System.out.println("username: " + ename);
@@ -73,7 +81,7 @@ public class surveyaccess extends HttpServlet {
         
        
         
-        danielhdelva.create(ename, eID,Band,ServiceLine,BluepagesManagerName,Service_Area);
+        danielhdelva.create(ename, eID,Band,ServiceLine,BluepagesManagerName,Service_Area,Primary_Job_Role,Testscript);
         // return response
         writer.println(htmlRespone);
       

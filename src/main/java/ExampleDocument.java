@@ -9,11 +9,12 @@ public class ExampleDocument {
 	public  String Service_Line="";
 	public  String Bluepages_Manager_Name="";
 	public  String Service_Area="";
-	
+	public  String Primary_Job_Role="";
+	public  String Test_script_creation ="";
   private String _rev = null;
 
 
-  public ExampleDocument(String id, String eID, String Band, String sl, String BM, String SA) {
+  public ExampleDocument(String id, String eID, String Band, String sl, String BM, String SA, String PJR, String ts) {
 	   _id=eID;
 	   EmployeeName=id;
 	   EmployeeID=eID;
@@ -21,9 +22,11 @@ public class ExampleDocument {
 	   Service_Line=sl;
 	   Bluepages_Manager_Name=BM;
 	   Service_Area=SA;
+	   Primary_Job_Role=PJR;
+	   Test_script_creation=ts;
   }
 
   public String toString() {
-    return "{ id: " + _id  + ",\nrev: "  + "EmployeeName:  " +  EmployeeName  + " EmployeeID: " + EmployeeID  +"Band: " + Banda +  "  Service Line: " +Service_Line +  "Bluepages Manager Name: " + Bluepages_Manager_Name+ "Service Area"+ Service_Area+    _rev   + "\n}";
+    return "{ id: " + _id  + ",\nrev: "  + "EmployeeName:  " +  EmployeeName  + " EmployeeID: " + EmployeeID  +"Band: " + Banda +  "  Service Line: " +Service_Line +  "Bluepages Manager Name: " + Bluepages_Manager_Name+ "Service Area"+ Service_Area+"Primary Job Role: "+Primary_Job_Role  +"Test script creation: " + Test_script_creation+ _rev   + "\n}";
   }
 }
