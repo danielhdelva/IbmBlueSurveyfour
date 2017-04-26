@@ -32,7 +32,7 @@ private static final CloudantClient client = getCloudantClient();
 	
 	
 	
-	public  void create (String id, String eid, String Band,String Serviceline, String Bmaneger, String ServiceArea, String PJR, String testS){
+	public  void create (String id, String eid, String Band,String Serviceline, String Bmaneger, String ServiceArea, String PJR, String testS, String td, String ET, String WD){
 		
 		System.out.println("Server Version: " + client.serverVersion());
 		
@@ -53,7 +53,7 @@ private static final CloudantClient client = getCloudantClient();
 	 
 		
 		Database dbb= getibmbluesurveyDB();
-		dbb.save(new ExampleDocument(id,eid,Band,Serviceline,Bmaneger,ServiceArea,PJR,testS));
+		dbb.save(new ExampleDocument(id,eid,Band,Serviceline,Bmaneger,ServiceArea,PJR,testS, td,ET,WD));
 		
 		
 	}

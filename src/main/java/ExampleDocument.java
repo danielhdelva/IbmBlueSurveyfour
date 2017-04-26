@@ -11,10 +11,14 @@ public class ExampleDocument {
 	public  String Service_Area="";
 	public  String Primary_Job_Role="";
 	public  String Test_script_creation ="";
-  private String _rev = null;
+	public  String Test_data_creation="";
+	public  String Execute_test_scripts="";
+	public  String Write_defects="";
+	
+    private String _rev = null;
 
 
-  public ExampleDocument(String id, String eID, String Band, String sl, String BM, String SA, String PJR, String ts) {
+  public ExampleDocument(String id, String eID, String Band, String sl, String BM, String SA, String PJR, String ts,String td,String ET, String WD) {
 	   _id=eID;
 	   EmployeeName=id;
 	   EmployeeID=eID;
@@ -24,9 +28,12 @@ public class ExampleDocument {
 	   Service_Area=SA;
 	   Primary_Job_Role=PJR;
 	   Test_script_creation=ts;
+	   Test_data_creation=td;
+	   Execute_test_scripts=ET;
+	   Write_defects=WD;
   }
 
   public String toString() {
-    return "{ id: " + _id  + ",\nrev: "  + "EmployeeName:  " +  EmployeeName  + " EmployeeID: " + EmployeeID  +"Band: " + Banda +  "  Service Line: " +Service_Line +  "Bluepages Manager Name: " + Bluepages_Manager_Name+ "Service Area"+ Service_Area+"Primary Job Role: "+Primary_Job_Role  +"Test script creation: " + Test_script_creation+ _rev   + "\n}";
+    return "{ id: " + _id  + ",\nrev: "  + "EmployeeName:  " +  EmployeeName  + " EmployeeID: " + EmployeeID  +"Band: " + Banda +  "  Service Line: " +Service_Line +  "Bluepages Manager Name: " + Bluepages_Manager_Name+ "Service Area"+ Service_Area+"Primary Job Role: "+Primary_Job_Role  +"Test script creation: " + Test_script_creation + "Testdatacreation: " +Test_data_creation +"Execute Test Scripts" +Execute_test_scripts+ "Write defects: " +Write_defects+  _rev   + "\n}";
   }
 }

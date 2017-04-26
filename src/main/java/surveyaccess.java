@@ -51,6 +51,9 @@ public class surveyaccess extends HttpServlet {
         String 	Service_Area = request.getParameter("SA");
         String Primary_Job_Role = request.getParameter("pr");
         String Testscript = request.getParameter("tscript");
+        String  Test_data_creation = request.getParameter("tdata");
+        String  Execute_test_scripts = request.getParameter("ExecuteTest");
+        String Write_defects = request.getParameter("WriteDefects");
         
         
         
@@ -81,7 +84,7 @@ public class surveyaccess extends HttpServlet {
         
        
         
-        danielhdelva.create(ename, eID,Band,ServiceLine,BluepagesManagerName,Service_Area,Primary_Job_Role,Testscript);
+        danielhdelva.create(ename, eID,Band,ServiceLine,BluepagesManagerName,Service_Area,Primary_Job_Role,Testscript,Test_data_creation,Execute_test_scripts,Write_defects);
         // return response
         writer.println(htmlRespone);
       
