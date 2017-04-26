@@ -16,7 +16,7 @@ import java.io.PrintWriter;
  */
 @WebServlet("/surveyaccess")
 public class surveyaccess extends HttpServlet {
-	public String  eename="";
+	public String  eename="dan";
 	private static final long serialVersionUID = 1L;
        
     /**
@@ -24,6 +24,7 @@ public class surveyaccess extends HttpServlet {
      */
     public surveyaccess() {
         super();
+        
         // TODO Auto-generated constructor stub
     }
 
@@ -58,8 +59,16 @@ public class surveyaccess extends HttpServlet {
         htmlRespone += "<h2>Your username is: " + ename + "<br/>";      
         //htmlRespone += "Your password is: " + password + "</h2>";    
         htmlRespone += "</html>";
+       
+        
+       
+      
+        
         SurveyDao danielhdelva= new SurveyDao();
-        danielhdelva.create();
+        
+       
+        
+        danielhdelva.create(ename);
         // return response
         writer.println(htmlRespone);
          
