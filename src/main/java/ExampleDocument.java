@@ -5,7 +5,7 @@ public class ExampleDocument {
 	public  String _id ="";
 	public String EmployeeName="";
 	public  String Banda="";
-	public  String EmployeeID="default";
+	public  String EmployeeID="";
 	public  String Service_Line="";
 	public  String Bluepages_Manager_Name="";
 	public  String Service_Area="";
@@ -42,6 +42,9 @@ public class ExampleDocument {
 
   public ExampleDocument(String id, String eID, String Band, String sl, String BM, String SA, String PJR, String ts,String td,String ET, String WD, String Ec, String useofhp, String useofrational, String useofrationalcol, String rationald, String urmt,String urqm, String urrc, String uorp,String uoras, String uortc, String uortest, String Continuos_Integration, String tdd,String taa, String ctp,String ctdp,String ctts, String rattsp, String rss, String cprss,String pstm,String perd) {
 	   _id=eID;
+	   if(eID==null){
+		  _id=""+Math.random(); 
+	   }
 	   EmployeeName=id;
 	   EmployeeID=eID;
 	   Banda=Band;
