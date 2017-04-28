@@ -73,6 +73,8 @@ public class surveyaccess extends HttpServlet {
         String  Create_test_plan_data=request.getParameter("Create_test_data_plan");
         String Create_test_schedula=request.getParameter("Create_test_schedul");
         String Review_and_track_test_team_schedule_progress=request.getParameter("Review_and_track");
+        String Resource_onboarding=request.getParameter("Resource_onboarding");
+        
         String Create_and_present_test_status_and_reports_to_key_stakeholders=request.getParameter("Create_and_present_test_s");
         String Prepare_Analyze_test_metric=request.getParameter("Prepare_Analyze_test_metric");
         String Perform_defect_management=request.getParameter("Perform_defect_management");
