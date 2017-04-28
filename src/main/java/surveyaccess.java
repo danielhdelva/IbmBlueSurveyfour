@@ -80,9 +80,13 @@ public class surveyaccess extends HttpServlet {
         String Create_test_estimates_and_budgets=request.getParameter("creattestestimates");
         String Perform_cost_accounting_and_provide_status=request.getParameter("performcostaccounting");
         String Agile_SCRUM_Master_experience=request.getParameter("Agile_SCRUM_Master_experience");
-        
-        
-        
+        String Consult_on_test_solutions=request.getParameter("Consult_on_test_solutions");
+        String Experience_in_Yrs__with_Software_Dev_Methodology_SDLC_Agile_SCRUM_Kanban_Iterative=request.getParameter("einyrsws");
+        String Participate_in_and_support=request.getParameter("Participate_in_and_support");
+        String Lead_test_assessments=request.getParameter("Participate_in_and_support");
+        String testing_using_accelerators=request.getParameter("testing_using_acceleratorst");
+        String Conduct_data_analytics_study=request.getParameter("conductdataana");
+              
         //String password = request.getParameter("password");
          eename=ename;
         System.out.println("username: " + ename);
@@ -108,7 +112,7 @@ public class surveyaccess extends HttpServlet {
        
         
         danielhdelva.create(ename, eID,Band,ServiceLine,BluepagesManagerName,Service_Area,Primary_Job_Role,Testscript,Test_data_creation,Execute_test_scripts,Write_defects,Effectively_communicate_to_stakeholders_client,Use_of_HP_Application_Lifecycle_Management,Use_of_Rational_ClearCase,Use_of_Rational_Collaborative_Life_cycle_Management,Use_of_Rational_Doors,Use_of_Rational_Manual_Tester,Use_of_Rational_Quality_Manager,Use_of_Rational_Requirements_Composer,Use_of_Rational_Pro,Use_of_Rational_Software_Architect_Design_Manager,Use_of_Rational_Team_Concert,Use_Rational_TestManager,Continuos_Integration_Continuous_Testing,Test_driven_development_TDD_Behavior_driven_development_BDD,Test_Architect_Technical_Leadership,
-        		Create_test_plan, Create_test_plan_data,Create_test_schedula,Review_and_track_test_team_schedule_progress,  Resource_onboarding,Create_and_present_test_status_and_reports_to_key_stakeholders,Prepare_Analyze_test_metric,Perform_defect_management,Create_test_estimates_and_budgets,Perform_cost_accounting_and_provide_status,Agile_SCRUM_Master_experience);
+        		Create_test_plan, Create_test_plan_data,Create_test_schedula,Review_and_track_test_team_schedule_progress,  Resource_onboarding,Create_and_present_test_status_and_reports_to_key_stakeholders,Prepare_Analyze_test_metric,Perform_defect_management,Create_test_estimates_and_budgets,Perform_cost_accounting_and_provide_status,Agile_SCRUM_Master_experience,Consult_on_test_solutions,Experience_in_Yrs__with_Software_Dev_Methodology_SDLC_Agile_SCRUM_Kanban_Iterative,Participate_in_and_support,Lead_test_assessments,testing_using_accelerators,Conduct_data_analytics_study);
         // return response
         writer.println(htmlRespone);
       

@@ -40,11 +40,17 @@ public class ExampleDocument {
 	public String Create_test_estimates_and_budgets = null;
 	public String Perform_cost_accounting_and_provide_status = null;
 	public String Agile_SCRUM_Master_experience = null;
-    
+	public String Consult_on_test_solutions = null;
+	public String Experience_in_Yrs__with_Software_Dev_Methodology_SDLC_Agile_SCRUM_Kanban_Iterative = null;
+	public String Participate_in_and_support_test_assessments = null;
+	public String Lead_test_assessments = null;
+	public String Experience_in_Yrs_testing_using_accelerators_like_CTD_Combinatorial_Test_Design = null;
+	public String Conduct_data_analytics_study = null;
+	
 	private String _rev = null;
 
 
-  public ExampleDocument(String name, String eID, String Band, String sl, String BM, String SA, String PJR, String ts,String td,String ET, String WD, String Ec, String useofhp, String useofrational, String useofrationalcol, String rationald, String urmt,String urqm, String urrc, String uorp,String uoras, String uortc, String uortest, String Continuos_Integration, String tdd,String taa, String ctp,String ctdp,String ctts, String rattsp, String rss, String cprss,String pstm,String perd,String ctead, String pcaap,String agsme) {
+  public ExampleDocument(String name, String eID, String Band, String sl, String BM, String SA, String PJR, String ts,String td,String ET, String WD, String Ec, String useofhp, String useofrational, String useofrationalcol, String rationald, String urmt,String urqm, String urrc, String uorp,String uoras, String uortc, String uortest, String Continuos_Integration, String tdd,String taa, String ctp,String ctdp,String ctts, String rattsp, String rss, String cprss,String pstm,String perd,String ctead, String pcaap,String agsme,String Consult_on_test, String ewsdmsdlc, String piasta, String Lead_test_assessment,String eintd, String cdas) {
 	   _id=eID;
 	  
 	   System.out.println(_id);
@@ -85,7 +91,13 @@ public class ExampleDocument {
 	   Create_test_estimates_and_budgets=ctead;
 	   Perform_cost_accounting_and_provide_status=pcaap;
 	   Agile_SCRUM_Master_experience=agsme;
-	  
+	   Consult_on_test_solutions=Consult_on_test;
+	   Experience_in_Yrs__with_Software_Dev_Methodology_SDLC_Agile_SCRUM_Kanban_Iterative=ewsdmsdlc;
+	   Participate_in_and_support_test_assessments=piasta;
+	   Lead_test_assessments=Lead_test_assessment;
+	   Experience_in_Yrs_testing_using_accelerators_like_CTD_Combinatorial_Test_Design=eintd;
+	   Conduct_data_analytics_study=cdas;
+	   
 	   if(eID==""){
 			  _id=""+Math.random(); 
 			  
@@ -96,6 +108,6 @@ public class ExampleDocument {
     return "{ id: " + _id  + ",\nrev: "  + "EmployeeName:  " +  EmployeeName  + " EmployeeID: " + EmployeeID  +"Band: " + Banda +  "  Service Line: " +Service_Line +  "Bluepages Manager Name: " + Bluepages_Manager_Name+ "Service Area"+ Service_Area+"Primary Job Role: "+Primary_Job_Role  +"Test script creation: " + Test_script_creation + "Testdatacreation: " +Test_data_creation +"Execute Test Scripts" +Execute_test_scripts+ "Write defects: " +Write_defects+ "Effectively communicate to stakeholders/client: "+Effectively_communicate  + _rev   + "Use of HP Application Lifecycle" + Use_of_HP_Application_Lifecycle_Management_ALM+ "Use of Rational ClearCase: "+Use_of_Rational_ClearCase_and_ClearQuest+ "Use_of_Rational_Collaborative_Life_cycle_Management"+Use_of_Rational_Collaborative_Life_cycle_Management_clm_product + Use_of_Rational_Doors+  Use_of_Rational_Manual_Tester+ Use_of_Rational_Quality_Manager +Use_of_Rational_Requirements_Composer+Use_of_Rational_RequisitePro+Use_of_Rational_Software_Architect_Design_Manager +Use_of_Rational_Team_Concert+Use_Rational_TestManager +
     		
     		
-    		 Continuos_Integration_Continuous_Testing+ Test_driven_development_TDD_Behavior_driven_development_BDD + Test_Architect_Technical_Leadership+ Create_test_plan+Create_test_data_plan+  Review_and_track_test_team_schedule_progress +Resource_onboarding+Prepare_Analyze_test_metrics+Create_test_estimates_and_budgets+Perform_cost_accounting_and_provide_status+Agile_SCRUM_Master_experience+"\n}";
+    		 Continuos_Integration_Continuous_Testing+ Test_driven_development_TDD_Behavior_driven_development_BDD + Test_Architect_Technical_Leadership+ Create_test_plan+Create_test_data_plan+  Review_and_track_test_team_schedule_progress +Resource_onboarding+Prepare_Analyze_test_metrics+Create_test_estimates_and_budgets+Perform_cost_accounting_and_provide_status+Agile_SCRUM_Master_experience+Consult_on_test_solutions+Participate_in_and_support_test_assessments+Lead_test_assessments+Experience_in_Yrs_testing_using_accelerators_like_CTD_Combinatorial_Test_Design+Conduct_data_analytics_study+"\n}";
   }
 }
