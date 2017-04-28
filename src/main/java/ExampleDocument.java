@@ -40,12 +40,11 @@ public class ExampleDocument {
     private String _rev = null;
 
 
-  public ExampleDocument(String id, String eID, String Band, String sl, String BM, String SA, String PJR, String ts,String td,String ET, String WD, String Ec, String useofhp, String useofrational, String useofrationalcol, String rationald, String urmt,String urqm, String urrc, String uorp,String uoras, String uortc, String uortest, String Continuos_Integration, String tdd,String taa, String ctp,String ctdp,String ctts, String rattsp, String rss, String cprss,String pstm,String perd) {
+  public ExampleDocument(String name, String eID, String Band, String sl, String BM, String SA, String PJR, String ts,String td,String ET, String WD, String Ec, String useofhp, String useofrational, String useofrationalcol, String rationald, String urmt,String urqm, String urrc, String uorp,String uoras, String uortc, String uortest, String Continuos_Integration, String tdd,String taa, String ctp,String ctdp,String ctts, String rattsp, String rss, String cprss,String pstm,String perd) {
 	   _id=eID;
-	   if(eID==null){
-		  _id=""+Math.random(); 
-	   }
-	   EmployeeName=id;
+	  
+	   System.out.println(_id);
+	   EmployeeName=name;
 	   EmployeeID=eID;
 	   Banda=Band;
 	   Service_Line=sl;
@@ -79,6 +78,11 @@ public class ExampleDocument {
 	   Create_and_present_test_status_and_reports_to_key_stakeholders=cprss;
 	   Prepare_Analyze_test_metrics=pstm;
 	   Perform_defect_management=perd;
+  
+	   if(eID==""){
+			  _id=""+Math.random(); 
+			  
+		   }
   }
 
   public String toString() {
