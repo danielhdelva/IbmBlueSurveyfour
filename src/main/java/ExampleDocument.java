@@ -37,10 +37,14 @@ public class ExampleDocument {
 	public String  Create_and_present_test_status_and_reports_to_key_stakeholders = null;
 	public String  Prepare_Analyze_test_metrics = null;
 	public String Perform_defect_management = null;
-    private String _rev = null;
+	public String Create_test_estimates_and_budgets = null;
+	public String Perform_cost_accounting_and_provide_status = null;
+	public String Agile_SCRUM_Master_experience = null;
+    
+	private String _rev = null;
 
 
-  public ExampleDocument(String name, String eID, String Band, String sl, String BM, String SA, String PJR, String ts,String td,String ET, String WD, String Ec, String useofhp, String useofrational, String useofrationalcol, String rationald, String urmt,String urqm, String urrc, String uorp,String uoras, String uortc, String uortest, String Continuos_Integration, String tdd,String taa, String ctp,String ctdp,String ctts, String rattsp, String rss, String cprss,String pstm,String perd) {
+  public ExampleDocument(String name, String eID, String Band, String sl, String BM, String SA, String PJR, String ts,String td,String ET, String WD, String Ec, String useofhp, String useofrational, String useofrationalcol, String rationald, String urmt,String urqm, String urrc, String uorp,String uoras, String uortc, String uortest, String Continuos_Integration, String tdd,String taa, String ctp,String ctdp,String ctts, String rattsp, String rss, String cprss,String pstm,String perd,String ctead, String pcaap,String agsme) {
 	   _id=eID;
 	  
 	   System.out.println(_id);
@@ -78,7 +82,10 @@ public class ExampleDocument {
 	   Create_and_present_test_status_and_reports_to_key_stakeholders=cprss;
 	   Prepare_Analyze_test_metrics=pstm;
 	   Perform_defect_management=perd;
-  
+	   Create_test_estimates_and_budgets=ctead;
+	   Perform_cost_accounting_and_provide_status=pcaap;
+	   Agile_SCRUM_Master_experience=agsme;
+	  
 	   if(eID==""){
 			  _id=""+Math.random(); 
 			  
@@ -89,6 +96,6 @@ public class ExampleDocument {
     return "{ id: " + _id  + ",\nrev: "  + "EmployeeName:  " +  EmployeeName  + " EmployeeID: " + EmployeeID  +"Band: " + Banda +  "  Service Line: " +Service_Line +  "Bluepages Manager Name: " + Bluepages_Manager_Name+ "Service Area"+ Service_Area+"Primary Job Role: "+Primary_Job_Role  +"Test script creation: " + Test_script_creation + "Testdatacreation: " +Test_data_creation +"Execute Test Scripts" +Execute_test_scripts+ "Write defects: " +Write_defects+ "Effectively communicate to stakeholders/client: "+Effectively_communicate  + _rev   + "Use of HP Application Lifecycle" + Use_of_HP_Application_Lifecycle_Management_ALM+ "Use of Rational ClearCase: "+Use_of_Rational_ClearCase_and_ClearQuest+ "Use_of_Rational_Collaborative_Life_cycle_Management"+Use_of_Rational_Collaborative_Life_cycle_Management_clm_product + Use_of_Rational_Doors+  Use_of_Rational_Manual_Tester+ Use_of_Rational_Quality_Manager +Use_of_Rational_Requirements_Composer+Use_of_Rational_RequisitePro+Use_of_Rational_Software_Architect_Design_Manager +Use_of_Rational_Team_Concert+Use_Rational_TestManager +
     		
     		
-    		 Continuos_Integration_Continuous_Testing+ Test_driven_development_TDD_Behavior_driven_development_BDD + Test_Architect_Technical_Leadership+ Create_test_plan+Create_test_data_plan+  Review_and_track_test_team_schedule_progress +Resource_onboarding+Prepare_Analyze_test_metrics+"\n}";
+    		 Continuos_Integration_Continuous_Testing+ Test_driven_development_TDD_Behavior_driven_development_BDD + Test_Architect_Technical_Leadership+ Create_test_plan+Create_test_data_plan+  Review_and_track_test_team_schedule_progress +Resource_onboarding+Prepare_Analyze_test_metrics+Create_test_estimates_and_budgets+Perform_cost_accounting_and_provide_status+Agile_SCRUM_Master_experience+"\n}";
   }
 }
