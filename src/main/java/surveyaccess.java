@@ -61,8 +61,14 @@ public class surveyaccess extends HttpServlet {
         String Use_of_Rational_Doors = request.getParameter("UseofRationalManual");
         String Use_of_Rational_Manual_Tester=request.getParameter("UseofRationalManual");
         String Use_of_Rational_Quality_Manager=request.getParameter("QualityManager");
-        String Use_of_Rational_Requirements_Composer=request.getParameter("UseofRationalRequirementsComposer");   
-        
+        String Use_of_Rational_Requirements_Composer=request.getParameter("UseofRationalRequirementsComposer"); 
+        String Use_of_Rational_Pro=request.getParameter("UseOfRationalRPro"); 
+        String Use_of_Rational_Software_Architect_Design_Manager=request.getParameter("Usadm");
+        String Use_of_Rational_Team_Concert=request.getParameter("Useteamc");
+        String Use_Rational_TestManager=request.getParameter("Use_Rational_TestManager");
+        String Continuos_Integration_Continuous_Testing=request.getParameter("Continuos_Integration_Continuous_Testing");
+        String  Test_driven_development_TDD_Behavior_driven_development_BDD=request.getParameter("TDD");
+        String  Test_Architect_Technical_Leadership=request.getParameter("TestArch");
         
         
         //String password = request.getParameter("password");
@@ -89,7 +95,7 @@ public class surveyaccess extends HttpServlet {
         
        
         
-        danielhdelva.create(ename, eID,Band,ServiceLine,BluepagesManagerName,Service_Area,Primary_Job_Role,Testscript,Test_data_creation,Execute_test_scripts,Write_defects,Effectively_communicate_to_stakeholders_client,Use_of_HP_Application_Lifecycle_Management,Use_of_Rational_ClearCase,Use_of_Rational_Collaborative_Life_cycle_Management,Use_of_Rational_Doors,Use_of_Rational_Manual_Tester,Use_of_Rational_Quality_Manager,Use_of_Rational_Requirements_Composer);
+        danielhdelva.create(ename, eID,Band,ServiceLine,BluepagesManagerName,Service_Area,Primary_Job_Role,Testscript,Test_data_creation,Execute_test_scripts,Write_defects,Effectively_communicate_to_stakeholders_client,Use_of_HP_Application_Lifecycle_Management,Use_of_Rational_ClearCase,Use_of_Rational_Collaborative_Life_cycle_Management,Use_of_Rational_Doors,Use_of_Rational_Manual_Tester,Use_of_Rational_Quality_Manager,Use_of_Rational_Requirements_Composer,Use_of_Rational_Pro,Use_of_Rational_Software_Architect_Design_Manager,Use_of_Rational_Team_Concert,Use_Rational_TestManager,Continuos_Integration_Continuous_Testing,Test_driven_development_TDD_Behavior_driven_development_BDD,Test_Architect_Technical_Leadership);
         // return response
         writer.println(htmlRespone);
       
