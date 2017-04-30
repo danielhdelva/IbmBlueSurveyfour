@@ -36,7 +36,9 @@ private static final CloudantClient client = getCloudantClient();
 			
 			
 			
-			String tdd, String taa, String cpp, String cttt,String ctts,String sctts, String rca,String crty, String pat,String aaa,String crteab, String Perform_cost_accounting,String Agile_SCRUM_Master_experience, String Consult_on_test_solutions, String  Experience_in, String Participate_in_and_support_test_assessments, String Lead_test_assessments, String ta,String cd){
+			String tdd, String taa, String cpp, String cttt,String ctts,String sctts, String rca,String crty, String pat,String aaa,String crteab, String Perform_cost_accounting,String Agile_SCRUM_Master_experience, String Consult_on_test_solutions, String  Experience_in, String Participate_in_and_support_test_assessments, String Lead_test_assessments, String ta,String cd,String cdb,String dtpp,String btq,
+			String leadt,String dt, String kp, String Write_p, String Rational, String ibmr, String qa, String HPq, String HPw, String HPu, String hpq, String ide, String strw, String Bulidp, String leadtEst, String dpt, String ktpba, String wpsc,
+			String prt0){
 		
 		System.out.println("Server Version: " + client.serverVersion());
 		
@@ -57,7 +59,8 @@ private static final CloudantClient client = getCloudantClient();
 	 
 		
 		Database dbb= getibmbluesurveyDB();
-		dbb.save(new ExampleDocument(id,eid,Band,Serviceline,Bmaneger,ServiceArea,PJR,testS, td,ET,WD,Ec,useofhp,useofrational,clm,rd,urmt,urqm,urrc,urp,uorsa,uortc,uortest,cici,tdd,taa,cpp,cttt,ctts,sctts,rca,crty,pat,aaa,crteab,Perform_cost_accounting,Agile_SCRUM_Master_experience,Consult_on_test_solutions,Experience_in,Participate_in_and_support_test_assessments,Lead_test_assessments,ta,cd));
+		dbb.save(new ExampleDocument(id,eid,Band,Serviceline,Bmaneger,ServiceArea,PJR,testS, td,ET,WD,Ec,useofhp,useofrational,clm,rd,urmt,urqm,urrc,urp,uorsa,uortc,uortest,cici,tdd,taa,cpp,cttt,ctts,sctts,rca,crty,pat,aaa,crteab,Perform_cost_accounting,Agile_SCRUM_Master_experience,Consult_on_test_solutions,Experience_in,Participate_in_and_support_test_assessments,Lead_test_assessments,ta,cd,cdb,dtpp,btq,leadt,
+				dt,kp, Write_p, Rational,ibmr,qa,HPq,HPw,HPu,hpq,ide,strw,Bulidp,leadtEst,dpt,ktpba,wpsc,prt0));
 		
 		
 	}

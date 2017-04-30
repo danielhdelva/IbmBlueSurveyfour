@@ -86,7 +86,28 @@ public class surveyaccess extends HttpServlet {
         String Lead_test_assessments=request.getParameter("Participate_in_and_support");
         String testing_using_accelerators=request.getParameter("testing_using_acceleratorst");
         String Conduct_data_analytics_study=request.getParameter("conductdataana");
-              
+        String Support_troubled_test_programs =request.getParameter("Support_troubled_test_programs");
+        String Develop_Test_proposals =request.getParameter("Develop_Test_proposals");
+        String  Build_test_automation_frameworks =request.getParameter("Build_test_automation");
+        String  Lead_test_automation_efforts =request.getParameter("LeadTestA");
+        String  Design_test_automation_scripts =request.getParameter("Design_test_automation_scripts");
+        String  Knowledge_of_Programming_Languages =request.getParameter("Knowledge_of_Programming_Languages");
+        String Write_performance_testing_scripts =request.getParameter("Write_performance_testing_scripts");
+        String Rational_Functional_Tester =request.getParameter("Rational_Functional_Tester");
+        String IBM_ATA_Automating_Test_Automation =request.getParameter("IBM_ATA_Automating_Test_Automation");
+        String QA_Partner =request.getParameter("QA_Partner");
+        String HP_Quality_Center_QC =request.getParameter("HP_Quality_Center_QC");
+        String HP_WinRunner =request.getParameter("HP_WinRunner");
+        String HP_Unified_Functional_Testing_UFT =request.getParameter("HP_Unified_Functional_Testing_UFT");
+        String HP_QuickTest_Pro_QTP  =request.getParameter("HP_QuickTest_Pro_QTP ");
+        String Selenium_IDE_Integrated_Development_Environment  =request.getParameter("Selenium_IDE_Integrated_Development_Environment");
+        String Selenium_RC_WebDriver  =request.getParameter("Selenium_RC_WebDriver");
+        String Build_performance_testing_frameworks  =request.getParameter("Build_performance_testing_frameworks");
+        String leadperformancetest  =request.getParameter("leadperformancetest");
+        String Design_performance_testing_scripts  =request.getParameter("Design_performance_testing_scripts");
+        String Knowledge_of_Programming_Languagestwo  =request.getParameter("Knowledge_of_Programming_Languagestwo");
+        String Write_performance_testing_scriptstw0  =request.getParameter("Write_performance_testing_scriptstw0");
+        String Rational_Performance_Tester0 =request.getParameter("Rational_Performance_Tester0");
         //String password = request.getParameter("password");
          eename=ename;
         System.out.println("username: " + ename);
@@ -112,7 +133,9 @@ public class surveyaccess extends HttpServlet {
        
         
         danielhdelva.create(ename, eID,Band,ServiceLine,BluepagesManagerName,Service_Area,Primary_Job_Role,Testscript,Test_data_creation,Execute_test_scripts,Write_defects,Effectively_communicate_to_stakeholders_client,Use_of_HP_Application_Lifecycle_Management,Use_of_Rational_ClearCase,Use_of_Rational_Collaborative_Life_cycle_Management,Use_of_Rational_Doors,Use_of_Rational_Manual_Tester,Use_of_Rational_Quality_Manager,Use_of_Rational_Requirements_Composer,Use_of_Rational_Pro,Use_of_Rational_Software_Architect_Design_Manager,Use_of_Rational_Team_Concert,Use_Rational_TestManager,Continuos_Integration_Continuous_Testing,Test_driven_development_TDD_Behavior_driven_development_BDD,Test_Architect_Technical_Leadership,
-        		Create_test_plan, Create_test_plan_data,Create_test_schedula,Review_and_track_test_team_schedule_progress,  Resource_onboarding,Create_and_present_test_status_and_reports_to_key_stakeholders,Prepare_Analyze_test_metric,Perform_defect_management,Create_test_estimates_and_budgets,Perform_cost_accounting_and_provide_status,Agile_SCRUM_Master_experience,Consult_on_test_solutions,Experience_in_Yrs__with_Software_Dev_Methodology_SDLC_Agile_SCRUM_Kanban_Iterative,Participate_in_and_support,Lead_test_assessments,testing_using_accelerators,Conduct_data_analytics_study);
+        		Create_test_plan, Create_test_plan_data,Create_test_schedula,Review_and_track_test_team_schedule_progress,  Resource_onboarding,Create_and_present_test_status_and_reports_to_key_stakeholders,Prepare_Analyze_test_metric,Perform_defect_management,Create_test_estimates_and_budgets,Perform_cost_accounting_and_provide_status,Agile_SCRUM_Master_experience,Consult_on_test_solutions,Experience_in_Yrs__with_Software_Dev_Methodology_SDLC_Agile_SCRUM_Kanban_Iterative,Participate_in_and_support,Lead_test_assessments,testing_using_accelerators,Conduct_data_analytics_study,Support_troubled_test_programs,Develop_Test_proposals,Build_test_automation_frameworks,Lead_test_automation_efforts,Design_test_automation_scripts,
+        		Knowledge_of_Programming_Languages,Write_performance_testing_scripts,Rational_Functional_Tester,IBM_ATA_Automating_Test_Automation,QA_Partner,HP_Quality_Center_QC,HP_WinRunner,HP_Unified_Functional_Testing_UFT,HP_QuickTest_Pro_QTP,Selenium_IDE_Integrated_Development_Environment,Selenium_RC_WebDriver,Build_performance_testing_frameworks,leadperformancetest,Design_performance_testing_scripts,Knowledge_of_Programming_Languagestwo,
+        		Write_performance_testing_scriptstw0,Rational_Performance_Tester0);
         // return response
         writer.println(htmlRespone);
       
