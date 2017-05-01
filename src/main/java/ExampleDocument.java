@@ -79,10 +79,7 @@ public class ExampleDocument {
 		  String ltae,  String dtas, String kopl, String wpts, String rft, String ibma, String qap, String HP_Q, String HP_w, String HPu, String hpq, String side, String srwebd, String buildp, String leadps,String Designpe, String Knowledge_of_Programming_Languages_a, String Write_performance_testing_scriptstw0,
 		  String rpt0, String hpqv, String hpc, String slickp, String apj) {
 	   _id=eID;
-	   if(eID=="" ||eID==null){
-			  _id=""+Math.random(); 
-			  
-		   }
+	
 	   System.out.println(_id);
 	   EmployeeName=name;
 	   EmployeeID=eID;
