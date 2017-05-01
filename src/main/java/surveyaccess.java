@@ -111,7 +111,48 @@ public class surveyaccess extends HttpServlet {
         String HP_Quality_Center_LoadRunner =request.getParameter("HP_Quality_Center_LoadRunner");
         String HP_Performance_Center =request.getParameter("HP_Performance_Center");
         String Silk_Performer =request.getParameter("Silk_Performer");
-        String Apache_Jmeter =request.getParameter("Apache_Jmeter ");
+        String Apache_Jmeter =request.getParameter("Apache_Jmeter");
+        String Parasoft_SOAtest =request.getParameter("Parasoft_SOAtest");
+        String Perform_mobile_application_testing =request.getParameter("Perform_mobile_application_testing");
+        String Perform_security_testing =request.getParameter("Perform_security_testing");
+        String Perform_data_analytics_testing =request.getParameter("Perform_data_analytics_testing");
+        String Perform_testing_in_the_Cloud =request.getParameter("Perform_testing_in_the_Cloud");
+        String Perfrom_Agile_testing =request.getParameter("Perfrom_Agile_testing");
+        String Junit_TestNG_Java=request.getParameter("Junit_TestNG_Java");
+        String Cucumber_Celerity=request.getParameter("Cucumber_Celerity");
+        String _508_Testing_tools_JAWS=request.getParameter("508_Testing_tools_JAWS");
+        String _508_Testing_tools_Dragon=request.getParameter("_508_Testing_tools_Dragon");
+        String _508_Testing_tools_Zoomtext=request.getParameter("_508_Testing_tools_Zoomtext");
+        String _508_Testing_tools_Compliance_Sheriff=request.getParameter("_508_Testing_tools_Compliance_Sheriff");
+        String _508_Testing_tools_Object_Inspector=request.getParameter("_508_Testing_tools_Object_Inspector");
+        String _508_Testing_tools_Java_Ferret=request.getParameter("_508_Testing_tools_Java_Ferret");
+        String _508_Testing_tools_Web_Accessibility_Toolbar_WAT=request.getParameter("_508_Testing_tools_Web_Accessibility_Toolbar_WAT");
+        String _508_Testing_tools_Adobe_Acrobat_Pro_PDF=request.getParameter("_508_Testing_tools_Adobe_Acrobat_Pro_PDF");
+        String IA_Tool_Scan_FortiFy=request.getParameter("IA_Tool_Scan_FortiFy");
+        String IA_Tool_Scan_AppScan=request.getParameter("IA_Tool_Scan_AppScan");
+        String _Knowledge_of_Programming_Languages=request.getParameter("_Knowledge_of_Programming_Languages");
+        String Java_J2EE_Net_Perl_Python_Shell_Scripting_Power_Shell_SQL_Other_Pls_list=request.getParameter("javajee");
+        String Retail=request.getParameter("Retail");
+        String Manufacturing=request.getParameter("Manufacturing");
+        String Health_Care=request.getParameter("Health_Care");
+        String Transportation=request.getParameter("Transportation");
+        String Banking=request.getParameter("Banking");
+        String Finance=request.getParameter("Finance");
+        String Government=request.getParameter("Government");
+        String Current_Clearance_s_status=request.getParameter("Current_Clearance_s_status");
+        String Additional_Comments=request.getParameter("Additional_Comments");
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         
         //String password = request.getParameter("password");
          eename=ename;
@@ -143,7 +184,7 @@ public class surveyaccess extends HttpServlet {
         danielhdelva.create(ename, eID,Band,ServiceLine,BluepagesManagerName,Service_Area,Primary_Job_Role,Testscript,Test_data_creation,Execute_test_scripts,Write_defects,Effectively_communicate_to_stakeholders_client,Use_of_HP_Application_Lifecycle_Management,Use_of_Rational_ClearCase,Use_of_Rational_Collaborative_Life_cycle_Management,Use_of_Rational_Doors,Use_of_Rational_Manual_Tester,Use_of_Rational_Quality_Manager,Use_of_Rational_Requirements_Composer,Use_of_Rational_Pro,Use_of_Rational_Software_Architect_Design_Manager,Use_of_Rational_Team_Concert,Use_Rational_TestManager,Continuos_Integration_Continuous_Testing,Test_driven_development_TDD_Behavior_driven_development_BDD,Test_Architect_Technical_Leadership,
         		Create_test_plan, Create_test_plan_data,Create_test_schedula,Review_and_track_test_team_schedule_progress,  Resource_onboarding,Create_and_present_test_status_and_reports_to_key_stakeholders,Prepare_Analyze_test_metric,Perform_defect_management,Create_test_estimates_and_budgets,Perform_cost_accounting_and_provide_status,Agile_SCRUM_Master_experience,Consult_on_test_solutions,Experience_in_Yrs__with_Software_Dev_Methodology_SDLC_Agile_SCRUM_Kanban_Iterative,Participate_in_and_support,Lead_test_assessments,testing_using_accelerators,Conduct_data_analytics_study,Support_troubled_test_programs,Develop_Test_proposals,Build_test_automation_frameworks,Lead_test_automation_efforts,Design_test_automation_scripts,
         		Knowledge_of_Programming_Languages,Write_performance_testing_scripts,Rational_Functional_Tester,IBM_ATA_Automating_Test_Automation,QA_Partner,HP_Quality_Center_QC,HP_WinRunner,HP_Unified_Functional_Testing_UFT,HP_QuickTest_Pro_QTP,Selenium_IDE_Integrated_Development_Environment,Selenium_RC_WebDriver,Build_performance_testing_frameworks,leadperformancetest,Design_performance_testing_scripts,Knowledge_of_Programming_Languagestwo,
-        		Write_performance_testing_scriptstw0,Rational_Performance_Tester0,HP_Quality_Center_LoadRunner,HP_Performance_Center,Silk_Performer,Apache_Jmeter);
+        		Write_performance_testing_scriptstw0,Rational_Performance_Tester0,HP_Quality_Center_LoadRunner,HP_Performance_Center,Silk_Performer,Apache_Jmeter,Parasoft_SOAtest,Perform_mobile_application_testing,Perform_security_testing,Perform_data_analytics_testing,Perform_testing_in_the_Cloud,Perfrom_Agile_testing,Junit_TestNG_Java,Cucumber_Celerity,_508_Testing_tools_JAWS,_508_Testing_tools_Dragon,_508_Testing_tools_Zoomtext,_508_Testing_tools_Compliance_Sheriff,_508_Testing_tools_Object_Inspector,_508_Testing_tools_Java_Ferret,_508_Testing_tools_Web_Accessibility_Toolbar_WAT,_508_Testing_tools_Adobe_Acrobat_Pro_PDF,IA_Tool_Scan_FortiFy,IA_Tool_Scan_AppScan,_Knowledge_of_Programming_Languages,Java_J2EE_Net_Perl_Python_Shell_Scripting_Power_Shell_SQL_Other_Pls_list,Retail,Manufacturing,Health_Care,Transportation,Banking,Finance,Government,Current_Clearance_s_status,Additional_Comments);
         // return response
         writer.println(htmlRespone);
         }catch(Throwable e){ 

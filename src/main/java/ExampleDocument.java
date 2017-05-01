@@ -72,14 +72,53 @@ public class ExampleDocument {
 	public String HP_Performance_Center= null;
 	public String Silk_Performer= null;
 	public String Apache_Jmeter= null;
+	public String Parasoft_SOAtest= null;
+	public String Perform_mobile_application_testing= null;
+	public String Perform_security_testing=null;
+	public String Perform_data_analytics_testing=null;
+	public String Perform_testing_in_the_Cloud=null;
+	public String Perfrom_Agile_testing =null;
+	public String Junit_TestNG_Java =null;
+	public String Cucumber_Celerity =null;
+	public String A_508_Testing_tools_JAWS=null;
+	public String A_508_Testing_tools_Dragon=null;
+	public String A_508_Testing_tools_Zoomtext=null;
+	public String A_508_Testing_tools_Compliance_Sheriff=null;
+	public String A_508_Testing_tools_Object_Inspector=null;
+	public String A_508_Testing_tools_Java_Ferret=null; 
+	public String A_508_Testing_tools_Web_Accessibility_Toolbar_WAT=null;
+	public String A_508_Testing_tools_Adobe_Acrobat_Pro_PDF=null;
+	public String IA_Tool_Scan_FortiFy=null;
+	public String IA_Tool_Scan_AppScan=null;
+	public String A_Knowledge_of_Programming_Languages=null;
+	public String Java_J2EE_Net_Perl_Python_Shell_Scripting_Power_Shell_SQL_Other_Pls_list=null;
+	public String Retail=null;
+	public String Manufacturing=null;
+	public String Health_Care=null;
+	public String Transportation=null;
+	public String Banking=null;
+	public String Finance=null;
+	public String Government=null;
+	public String Current_Clearance_s_status=null;
+	public String Additional_Comments=null;
+	
+	
+	
+	
+	
+	
+	
+	
 	private String _rev = null;
 
 
   public ExampleDocument(String name, String eID, String Band, String sl, String BM, String SA, String PJR, String ts,String td,String ET, String WD, String Ec, String useofhp, String useofrational, String useofrationalcol, String rationald, String urmt,String urqm, String urrc, String uorp,String uoras, String uortc, String uortest, String Continuos_Integration, String tdd,String taa, String ctp,String ctdp,String ctts, String rattsp, String rss, String cprss,String pstm,String perd,String ctead, String pcaap,String agsme,String Consult_on_test, String ewsdmsdlc, String piasta, String Lead_test_assessment,String eintd, String cdas,String sttp, String dtp,String btq,
 		  String ltae,  String dtas, String kopl, String wpts, String rft, String ibma, String qap, String HP_Q, String HP_w, String HPu, String hpq, String side, String srwebd, String buildp, String leadps,String Designpe, String Knowledge_of_Programming_Languages_a, String Write_performance_testing_scriptstw0,
-		  String rpt0, String hpqv, String hpc, String slickp, String apj) {
+		  String rpt0, String hpqv, String hpc, String slickp, String apj, String Parasoft_SOAtesta, String  performmobiea, String ppst, String pdat, String ptitc, String Perfrom_Agile_testinga,String Junit_TestNG_Javaa, String Cucumber_Celeritya,
+		  String _508_Testing_tools_JAWSa,String _508_Testing_tools_Dragona,String _508_Testing_tools_Zoomtexta,String _508_Testing_tools_Compliance_Sheriffa,String _508_Testing_tools_Object_Inspectora,String _508_Testing_tools_Java_Ferreta,String _508_Testing_tools_Web_Accessibility_Toolbar_WATa,String _508_Testing_tools_Adobe_Acrobat_Pro_PDFa,String iatsf, String IA_Tool_Scan_AppScana, String _Knowledge_of_Programming_Languagesa, String javajee, String Retaila,
+		  String manufact, String Health_Carea, String trad, String Bankinga, String Financea, String Governmenta, String Current_Clearance_s_statusa, String Additional_Commentsa ) {
 	   _id=eID;
-	
+	   
 	   System.out.println(_id);
 	   EmployeeName=name;
 	   EmployeeID=eID;
@@ -150,6 +189,40 @@ public class ExampleDocument {
 	    HP_Performance_Center=hpc;
 	    Silk_Performer= slickp;
 	    Apache_Jmeter=apj;
+	    Parasoft_SOAtest=Parasoft_SOAtesta;
+	    Perform_mobile_application_testing=performmobiea;
+	    Perform_security_testing=ppst;
+	    Perform_data_analytics_testing=pdat;
+	     Perform_testing_in_the_Cloud=ptitc;
+	     Perfrom_Agile_testing=Perfrom_Agile_testinga;
+	     Junit_TestNG_Java=Junit_TestNG_Javaa;
+	     Cucumber_Celerity=Cucumber_Celeritya;
+	     A_508_Testing_tools_JAWS=_508_Testing_tools_JAWSa;
+	     A_508_Testing_tools_Dragon=_508_Testing_tools_Dragona;
+	     A_508_Testing_tools_Zoomtext=_508_Testing_tools_Zoomtexta;
+	     A_508_Testing_tools_Zoomtext=_508_Testing_tools_Zoomtexta;
+	     A_508_Testing_tools_Compliance_Sheriff=_508_Testing_tools_Compliance_Sheriffa;
+	     A_508_Testing_tools_Object_Inspector=_508_Testing_tools_Object_Inspectora;
+	     A_508_Testing_tools_Java_Ferret=_508_Testing_tools_Java_Ferreta;
+	     A_508_Testing_tools_Web_Accessibility_Toolbar_WAT=_508_Testing_tools_Web_Accessibility_Toolbar_WATa;
+	     A_508_Testing_tools_Adobe_Acrobat_Pro_PDF=_508_Testing_tools_Adobe_Acrobat_Pro_PDFa;
+	     IA_Tool_Scan_FortiFy=iatsf;
+			IA_Tool_Scan_AppScan=IA_Tool_Scan_AppScana;
+			A_Knowledge_of_Programming_Languages=_Knowledge_of_Programming_Languagesa;
+		 Java_J2EE_Net_Perl_Python_Shell_Scripting_Power_Shell_SQL_Other_Pls_list=javajee;
+		 Retail=Retaila;
+		 Manufacturing=manufact;
+		 Health_Care=Health_Carea;
+		 Transportation=trad;
+		 Banking=Bankinga;
+		 Finance=Financea;
+		 Government=Governmenta;
+		 Current_Clearance_s_status=Current_Clearance_s_statusa;
+		 Additional_Comments=Additional_Commentsa; 
+	     
+	     
+	     
+	     
   }
 
   public String toString() {
@@ -158,6 +231,8 @@ public class ExampleDocument {
     		
     		 Continuos_Integration_Continuous_Testing+ Test_driven_development_TDD_Behavior_driven_development_BDD + Test_Architect_Technical_Leadership+ Create_test_plan+Create_test_data_plan+  Review_and_track_test_team_schedule_progress +Resource_onboarding+Prepare_Analyze_test_metrics+Create_test_estimates_and_budgets+Perform_cost_accounting_and_provide_status+Agile_SCRUM_Master_experience+Consult_on_test_solutions+Participate_in_and_support_test_assessments+Lead_test_assessments+Experience_in_Yrs_testing_using_accelerators_like_CTD_Combinatorial_Test_Design+Conduct_data_analytics_study+Support_troubled_test_programs+ Develop_Test_proposals+Build_test_automation_frameworks+Lead_test_automation_efforts+
     		 Design_test_automation_scripts+Knowledge_of_Programming_Languages+Write_performance_testing_scripts +Rational_Functional_Tester+IBM_ATA_Automating_Test_Automation+QA_Partner+HP_Quality_Center_QC+ HP_WinRunner+HP_Unified_Functional_Testing_UFT+HP_QuickTest_Pro_QTP+ Selenium_IDE_Integrated_Development_Environment+Selenium_RC_WebDriver+ Build_performance_testing_frameworks+Lead_performance_testing_efforts_Run_test_planning_session_create_Performance_Test_Plan+Design_performance_testing_scripts+Knowledge_of_Programming_Languages_+
-    		 Write_performance_testing_scripts_+ Rational_Performance_Tester0+HP_Quality_Center_LoadRunner+HP_Performance_Center+Silk_Performer+"\n}";
+    		 Write_performance_testing_scripts_+ Rational_Performance_Tester0+HP_Quality_Center_LoadRunner+HP_Performance_Center+Silk_Performer+Apache_Jmeter+Parasoft_SOAtest+Perform_mobile_application_testing+Perform_security_testing+Perform_data_analytics_testing+Perform_testing_in_the_Cloud+Perfrom_Agile_testing+Junit_TestNG_Java+Cucumber_Celerity+
+    		A_508_Testing_tools_JAWS+A_508_Testing_tools_Dragon+A_508_Testing_tools_Zoomtext+ A_508_Testing_tools_Compliance_Sheriff+A_508_Testing_tools_Object_Inspector+A_508_Testing_tools_Java_Ferret+ A_508_Testing_tools_Web_Accessibility_Toolbar_WAT+ A_508_Testing_tools_Adobe_Acrobat_Pro_PDF+ IA_Tool_Scan_FortiFy+IA_Tool_Scan_AppScan+
+ 		   A_Knowledge_of_Programming_Languages+Java_J2EE_Net_Perl_Python_Shell_Scripting_Power_Shell_SQL_Other_Pls_list+Retail+ Manufacturing+Health_Care+Transportation+Banking+ Finance+Government+Current_Clearance_s_status+Additional_Comments+"\n}";
   }
 }
