@@ -91,7 +91,7 @@ public class ExampleDocument {
 	public String IA_Tool_Scan_FortiFy=null;
 	public String IA_Tool_Scan_AppScan=null;
 	public String A_Knowledge_of_Programming_Languages=null;
-	public String Java_J2EE_Net_Perl_Python_Shell_Scripting_Power_Shell_SQL_Other_Pls_list=null;
+	public String Java_J2EE_Net_Perl_Python_Shell_Scripting_Power_Shell_SQL=null;
 	public String Retail=null;
 	public String Manufacturing=null;
 	public String Health_Care=null;
@@ -209,7 +209,7 @@ public class ExampleDocument {
 	     IA_Tool_Scan_FortiFy=iatsf;
 			IA_Tool_Scan_AppScan=IA_Tool_Scan_AppScana;
 			A_Knowledge_of_Programming_Languages=_Knowledge_of_Programming_Languagesa;
-		 Java_J2EE_Net_Perl_Python_Shell_Scripting_Power_Shell_SQL_Other_Pls_list=javajee;
+		 Java_J2EE_Net_Perl_Python_Shell_Scripting_Power_Shell_SQL=javajee;
 		 Retail=Retaila;
 		 Manufacturing=manufact;
 		 Health_Care=Health_Carea;
@@ -233,6 +233,6 @@ public class ExampleDocument {
     		 Design_test_automation_scripts+Knowledge_of_Programming_Languages+Write_performance_testing_scripts +Rational_Functional_Tester+IBM_ATA_Automating_Test_Automation+QA_Partner+HP_Quality_Center_QC+ HP_WinRunner+HP_Unified_Functional_Testing_UFT+HP_QuickTest_Pro_QTP+ Selenium_IDE_Integrated_Development_Environment+Selenium_RC_WebDriver+ Build_performance_testing_frameworks+Lead_performance_testing_efforts_Run_test_planning_session_create_Performance_Test_Plan+Design_performance_testing_scripts+Knowledge_of_Programming_Languages_+
     		 Write_performance_testing_scripts_+ Rational_Performance_Tester0+HP_Quality_Center_LoadRunner+HP_Performance_Center+Silk_Performer+Apache_Jmeter+Parasoft_SOAtest+Perform_mobile_application_testing+Perform_security_testing+Perform_data_analytics_testing+Perform_testing_in_the_Cloud+Perfrom_Agile_testing+Junit_TestNG_Java+Cucumber_Celerity+
     		A_508_Testing_tools_JAWS+A_508_Testing_tools_Dragon+A_508_Testing_tools_Zoomtext+ A_508_Testing_tools_Compliance_Sheriff+A_508_Testing_tools_Object_Inspector+A_508_Testing_tools_Java_Ferret+ A_508_Testing_tools_Web_Accessibility_Toolbar_WAT+ A_508_Testing_tools_Adobe_Acrobat_Pro_PDF+ IA_Tool_Scan_FortiFy+IA_Tool_Scan_AppScan+
- 		   A_Knowledge_of_Programming_Languages+Java_J2EE_Net_Perl_Python_Shell_Scripting_Power_Shell_SQL_Other_Pls_list+Retail+ Manufacturing+Health_Care+Transportation+Banking+ Finance+Government+Current_Clearance_s_status+Additional_Comments+"\n}";
+ 		   A_Knowledge_of_Programming_Languages+Java_J2EE_Net_Perl_Python_Shell_Scripting_Power_Shell_SQL+Retail+ Manufacturing+Health_Care+Transportation+Banking+ Finance+Government+Current_Clearance_s_status+Additional_Comments+"\n}";
   }
 }
