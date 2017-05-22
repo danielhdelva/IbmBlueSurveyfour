@@ -141,7 +141,7 @@ Test script creation
 
 
 <td>
- <select name="tscript" onchange="m()">
+ <select name="tscript" onchange="m()" required>
   <option value="" ></option>
   <option value="No Skill">No Skill</option>
   <option value="Applied">Applied</option>
@@ -167,7 +167,7 @@ Test script creation
 
 <td width="10%">
 
-<select  ng-model="SelectedNameRow2"  name="tdata" ng-options="x for x in names" style="width: 200px;">
+<select  ng-model="SelectedNameRow2"  name="tdata" ng-options="x for x in names" style="width: 200px;" required>
 </select>
 
 

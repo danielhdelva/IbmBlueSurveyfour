@@ -152,6 +152,7 @@ public class surveyaccess extends HttpServlet {
         
         while(Testscript==""){
         	   writerr.println("entered while");
+        	   writerr.println(i);
         	 dan[3]=0;
         	 
         }
