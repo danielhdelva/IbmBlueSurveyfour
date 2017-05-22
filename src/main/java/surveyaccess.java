@@ -148,6 +148,8 @@ public class surveyaccess extends HttpServlet {
         
         int a=1;  if (a==1){
         	writerr.println("entered error phase"+ Testscript);
+        
+        
         }
         
        if (Testscript=="" ||Testscript== null){
@@ -162,7 +164,9 @@ public class surveyaccess extends HttpServlet {
        }
         
         
-        
+       if (Testscript!="No Skill" ||Testscript== "Applied"){
+    	   dan[3]=0;
+       }
         
         
         
