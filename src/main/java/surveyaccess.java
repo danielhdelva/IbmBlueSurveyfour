@@ -145,8 +145,13 @@ public class surveyaccess extends HttpServlet {
         PrintWriter writerr = response.getWriter();
         
         int []dan=new int[3];
+        
+        int a=1;  if (a==1){
+        	writerr.println("entered error phase"+ Testscript);
+        }
+        
        if (Testscript=="" ||Testscript== "?"){
-    	   writerr.println("entered error phase"+ Testscript);
+    	   
     	   
     	   dan[3]=0;
     	   
