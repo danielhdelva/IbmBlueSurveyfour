@@ -146,7 +146,8 @@ public class surveyaccess extends HttpServlet {
         
         int []dan=new int[3];
        if (Testscript=="" ||Testscript== "?"){
-    	  
+    	   writerr.println("entered error phase"+ Testscript);
+    	   
     	   dan[3]=0;
     	   
     	   writerr.println("entered error phase"+ Testscript);
