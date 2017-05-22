@@ -141,31 +141,29 @@ public class surveyaccess extends HttpServlet {
         String Government=request.getParameter("Government");
         String Current_Clearance_s_status=request.getParameter("Current_Clearance_s_status");
         String Additional_Comments=request.getParameter("Additional_Comments");
-        
+        String E=request.getParameter("SLw");
+        String p=request.getParameter("p");
         PrintWriter writerr = response.getWriter();
         
         int []dan=new int[3];
-        
+        while(Testscript==""){
+        	 dan[3]=0;
+        }
    
-       if (Testscript=="" ||Testscript== null){
-    	   
-    	   
+       if (E=="y"){
+    	   writerr.println("entered error phase"+ E);
+    	   writerr.println("entered error phase "+Testscript);
     	   dan[3]=0;
     	   
-    	   writerr.println("entered error phase"+ Testscript);
+    	  
        }
        else{
-    	   writerr.println("entered else0 " +Testscript );
+    	   writerr.println("entered else0 " +E );
+    	   writerr.println("entered else0 "+ p);
        }
         
         
-       if (Testscript!="No Skill" ||Testscript!= "Applied"){
-    	   writerr.println("second if"+ Testscript);
-    	   
-    	   dan[3]=0;
-       
-       
-       }
+    
         
         
         

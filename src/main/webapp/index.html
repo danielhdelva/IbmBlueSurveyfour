@@ -18,7 +18,10 @@
 
 <script type="text/javascript" src="angular.js"></script>
 
+<script type="text/javascript" >function m() {
 
+    document.getElementById("uu").value = "Y";
+}</script>
 
 
 
@@ -138,12 +141,13 @@ Test script creation
 
 
 <td>
- <select name="tscript">
-  <option value=""></option>
+ <select name="tscript" onchange="m()">
+  <option value="" ></option>
   <option value="No Skill">No Skill</option>
   <option value="Applied">Applied</option>
   <option value="Acquired">Acquired</option>
   <option value="Mastered">Acquired</option>
+   <input type="hidden" id="uu" name="SLw" />
 </select> 
 
 </td>
