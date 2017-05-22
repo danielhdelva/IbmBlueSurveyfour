@@ -150,7 +150,7 @@ public class surveyaccess extends HttpServlet {
         	writerr.println("entered error phase"+ Testscript);
         }
         
-       if (Testscript=="" ||Testscript== "?"){
+       if (Testscript=="" ||Testscript== null){
     	   
     	   
     	   dan[3]=0;
