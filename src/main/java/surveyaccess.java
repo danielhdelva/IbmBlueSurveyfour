@@ -148,9 +148,8 @@ public class surveyaccess extends HttpServlet {
         int []dan=new int[3];
         while(Testscript==""){
         	 dan[3]=0;
-        	 writerr.println("entered while "+ Testscript);
         }
-   //the error was with the if it does not do correct compare
+   
        if (E=="y"){
     	   writerr.println("entered error phase"+ E);
     	   writerr.println("entered error phase "+Testscript);
