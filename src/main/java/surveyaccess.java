@@ -146,12 +146,7 @@ public class surveyaccess extends HttpServlet {
         
         int []dan=new int[3];
         
-        int a=1;  if (a==1){
-        	writerr.println("entered error phase"+ Testscript);
-        
-        
-        }
-        
+   
        if (Testscript=="" ||Testscript== null){
     	   
     	   
@@ -160,12 +155,16 @@ public class surveyaccess extends HttpServlet {
     	   writerr.println("entered error phase"+ Testscript);
        }
        else{
-    	   writerr.println("entered else" +Testscript );
+    	   writerr.println("entered else0 " +Testscript );
        }
         
         
-       if (Testscript!="No Skill" ||Testscript== "Applied"){
+       if (Testscript!="No Skill" ||Testscript!= "Applied"){
+    	   writerr.println("second if"+ Testscript);
+    	   
     	   dan[3]=0;
+       
+       
        }
         
         
