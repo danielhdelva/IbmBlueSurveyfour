@@ -145,14 +145,14 @@ public class surveyaccess extends HttpServlet {
         PrintWriter writerr = response.getWriter();
         
         int []dan=new int[3];
-       if (Testscript==""){
+       if (Testscript=="" ||Testscript== "?"){
     	  
     	   dan[3]=0;
     	   
-    	   writerr.println("entered error phase");
+    	   writerr.println("entered error phase"+ Testscript);
        }
        else{
-    	   writerr.println("entered else");
+    	   writerr.println("entered else" +Testscript );
        }
         
         
