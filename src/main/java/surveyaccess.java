@@ -142,11 +142,18 @@ public class surveyaccess extends HttpServlet {
         String Current_Clearance_s_status=request.getParameter("Current_Clearance_s_status");
         String Additional_Comments=request.getParameter("Additional_Comments");
         
+        PrintWriter writer = response.getWriter();
         
-        
-        
-        
-        
+        int []dan=new int[3];
+       if (Testscript==""){
+    	  
+    	   dan[3]=0;
+    	   
+    	   writer.println("entered error phase");
+       }
+       else{
+    	   writer.println("entered else");
+       }
         
         
         
